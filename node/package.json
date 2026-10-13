@@ -1,0 +1,14 @@
+{
+  "name": "google-search-scraper",
+  "version": "1.0.0",
+  "description": "Scrape Google Search results (organic, ads, People Also Ask, AI Overview) to JSON and CSV with the CrawlerData API",
+  "type": "module",
+  "bin": { "google-search-scraper": "google-search-scraper.mjs" },
+  "scripts": {
+    "start": "node google-search-scraper.mjs"
+  },
+  "engines": { "node": ">=18" },
+  "keywords": ["google-search", "serp", "serp-api", "google-scraper", "web-scraping", "seo", "crawlerdata"],
+  "homepage": "https://github.com/CrawlerData/google-search-scraper",
+  "license": "MIT"
+}
